@@ -2,12 +2,11 @@ import styled from "styled-components/macro";
 
 export const Container = styled.div`
   display: flex;
-  border-bottom: 8px solid #222;
 `;
 
 export const Inner = styled.div`
   display: flex;
-  padding: 70px 45px;
+  padding: 70px 45px 0;
   flex-direction: column;
   max-width: 815px;
   margin: auto;
@@ -101,7 +100,7 @@ export const StyledOpen = styled.button`
 
   div {
     width: 2rem;
-    height: 0.25rem;
+    height: 0.15rem;
     background: white;
     border-radius: 10px;
     transition: all 0.15s linear;
